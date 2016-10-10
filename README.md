@@ -1,1 +1,1 @@
-Testing Composer, PHPUnit and Travis 
+Testing Composer, PHPUnit and Travis-CI

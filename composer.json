@@ -6,6 +6,6 @@
 		"phpunit/phpunit": "3.7.x-dev"
 	},
 	"autoload" : {
-		"psr-0" : { "Kathi" : "src/" }
+		"psr-0" : { "Calculator" : "src/" }
 	}
 }
