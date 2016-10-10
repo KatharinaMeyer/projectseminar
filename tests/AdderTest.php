@@ -40,7 +40,7 @@ class AdderTest extends PHPUnit_Framework_TestCase {
 	 */
 	public function testValidResult()
 	{
-		$this->assertEquals(5, $this->sum->add(2, 3));
+		$this->assertEquals(5, $this->sum->add(3, 3));
 	}
 	
 }
