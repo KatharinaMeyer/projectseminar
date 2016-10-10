@@ -4,17 +4,13 @@ class RechnerTest extends PHPUnit_Framework_TestCase {
 
 	private $additon = null;
 
-	/**
-	 * Setup der Testumgebung.
-	 */
+
 	public function setUp()
 	{
 		$this->additon = new Kathi\Rechner();
 	}
 
-	/**
-	 * Teardown der Testumgebung.
-	 */
+
 	public function tearDown()
 	{
 		$this->additon = null;
@@ -22,7 +18,6 @@ class RechnerTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Test der Instanz von $this->additon
-	 *
 	 * @test
 	 */
 	public function testInstanceOf()
@@ -32,12 +27,11 @@ class RechnerTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Test, dass bei einem ungueltigen Argument eine Exception geworfen wird.
-	 *
 	 * @expectedException InvalidArgumentException
 	 */
 	public function testUngueltigesArgument()
 	{
-		$this->additon->addieren('A', 2);
+		$this->additon->addieren('ABC', 2);
 	}
 
 	/**
